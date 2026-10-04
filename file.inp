@@ -1,0 +1,17 @@
+#particles       = 500
+temperature(K)   = 300.0
+box_x(A)         = 100.0
+box_y(A)         = 100.0
+box_z(A)         = 50.0
+molar_mass(g/mol)= 16.0427
+sigma(A)         = 3.73
+rcut(A)          = 14.0
+epsilon(K)       = 148.0
+epsilonfw(K)     = 450.0
+time_step(fs)    = 2.0
+max_steps        = 50000
+n_save           = 1
+n_equil          = 25000
+max_bin          = 1000
+lower_z(A)       = 1.8
+upper_z(A)       = 2.8
