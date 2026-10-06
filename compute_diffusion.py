@@ -44,7 +44,7 @@ k     = 0
 for i in range(maxbin):
     if (z[i] >= lower and z[i] <= upper):
         rz[k] = z[i]
-        pk[k] = np.log(prob[i])
+        pk[k] = np.log(dens[i])
         k    += 1
 
 omega, b = np.polyfit(rz, pk, 1)
