@@ -9,7 +9,8 @@
 ! Disclaimer:                                                         !
 ! The author does not accept any liability for the use of this code   !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-program compute_density implicit none
+program compute_density 
+        implicit none
         integer*8                            :: i,j
         integer*8                            :: bin
         integer*8                            :: step
